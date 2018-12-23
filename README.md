@@ -80,11 +80,11 @@ The API endpoints will be available by default at: `http://localhost:3001/insigh
 
 - [Bitcore Node MatrixPay 3.x](https://github.com/dashevo/raidencashcore-node)
 
-**Note:** You can use an existing MatrixPay data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `dash.conf`, as well as a few other additional fields.
+**Note:** You can use an existing MatrixPay data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `raidencash.conf`, as well as a few other additional fields.
 
 ### Query Rate Limit
 
-To protect the server, insight-api has a built it query rate limiter. It can be configurable in `bitcore-node.json` with:
+To protect the server, insight-api has a built it query rate limiter. It can be configurable in `raidencashcore-node.json` with:
 ``` json
   "servicesConfig": {
     "insight-api": {
